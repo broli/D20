@@ -24,18 +24,12 @@ public class D20 extends Activity {
         		Random generador = new Random();
         		int entero;
         		TextView texto;
-        		String array[];
-        		
-        		array = new String[3];
-        		array[0] = "Si";
-        		array[1]= "No";
-        		array[2]="Talvez";
         		
         		texto = (TextView) findViewById(R.id.TV_Resultado);
         		
-        		entero = generador.nextInt(3);
+        		entero = generador.nextInt(20)+1;
         		
-        		texto.setText(array[entero]);
+        		texto.setText(String.valueOf(entero));
         	    }
            }
         );
