@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/Bola"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bola">
+<TextView
+	android:id="@+id/TV_Resultado"
+	android:text="@string/S_PressToRoll"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_centerInParent="true"
+	android:textSize="20.0sp" />
+<Button
+	android:id="@+id/B_Roll"
+	android:text="@string/S_Roll"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:layout_centerHorizontal="true"
+	android:layout_below="@id/TV_Resultado" 
+	android:layout_marginTop="80.0sp" />
+
+</RelativeLayout>

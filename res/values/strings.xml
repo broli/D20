@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, D20!</string>
+    <string name="app_name">D20</string>
+<string name="S_Title">D20 dice Roller</string>
+<string name="S_PressToRoll">Press the button</string>
+<string name="S_Roll">Roll</string>
+</resources>
